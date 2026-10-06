@@ -1,6 +1,7 @@
 {
   "title": "Catalogue of a music library (Microsoft Access, 2018)",
   "upload_type": "software",
+  "publication_date": "2018-12-31",
   "description": "<p><em>Catalogo di una biblioteca musicale</em></p><p>A compact catalogue of the scores and music books of a small music library. Each item records author, title, volume, opus, edition, reviser, section, instruments, condition, cataloguing data, archive location, year and notes, and is entered and searched through a single form.</p><p>Designed and programmed by Massimo Sbarbaro in 2018 (Microsoft Access). Published in 2026; all original data and the names of client organisations have been removed.</p>",
   "creators": [
     {
