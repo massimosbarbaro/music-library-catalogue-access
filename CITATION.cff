@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you refer to this software, please cite it as below."
+type: software
+title: "Catalogue of a music library (Microsoft Access, 2018)"
+version: "1.0"
+abstract: "A compact catalogue of the scores and music books of a small music library. Each item records author, title, volume, opus, edition, reviser, section, instruments, condition, cataloguing data, archive location, year and notes, and is entered and searched through a single form."
+authors:
+  - family-names: Sbarbaro
+    given-names: Massimo
+    orcid: "https://orcid.org/0009-0006-8965-9013"
+license: MIT
+repository-code: "https://github.com/massimosbarbaro/music-library-catalogue-access"
+keywords:
+  - "Microsoft Access"
+  - "music library"
+  - "sheet music"
+  - "catalogue"

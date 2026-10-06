@@ -1,0 +1,948 @@
+Version =21
+VersionRequired =20
+PublishOption =1
+Checksum =-1830604997
+Begin Form
+    DividingLines = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    TabularCharSet =238
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =12151
+    DatasheetFontHeight =11
+    ItemSuffix =32
+    Right =16905
+    Bottom =7815
+    DatasheetGridlinesColor =15062992
+    RecSrcDt = Begin
+        0xd6c3d22af177e340
+    End
+    GUID = Begin
+        0x5b3f4ba7e6c01144bd58a875fb2c4349
+    End
+    RecordSource ="biblioteca"
+    DatasheetFontName ="Calibri"
+    PrtMip = Begin
+        0x6801000068010000680100006801000000000000201c0000e010000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    AllowDatasheetView =0
+    FilterOnLoad =0
+    ShowPageMargins =0
+    DisplayOnSharePointSite =1
+    DatasheetAlternateBackColor =16053492
+    DatasheetGridlinesColor12 =15062992
+    FitToScreen =1
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =11
+            FontName ="Calibri"
+        End
+        Begin Image
+            BackStyle =0
+            OldBorderStyle =0
+            BorderLineStyle =0
+            SizeMode =3
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            FontSize =11
+            BorderColor =12632256
+            FontName ="Calibri"
+            AsianLineBreak =1
+        End
+        Begin ComboBox
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            FontSize =11
+            BorderColor =12632256
+            FontName ="Calibri"
+            AllowValueListEdits =1
+            InheritValueList =1
+        End
+        Begin FormHeader
+            Height =1124
+            BackColor =-2147483612
+            Name ="IntestazioneMaschera"
+            GUID = Begin
+                0xe783873f38d4144f8111f6db4af8cce3
+            End
+            Begin
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =1
+                    Left =1288
+                    Top =60
+                    Width =9933
+                    Height =1064
+                    FontSize =18
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    ForeColor =-2147483615
+                    Name ="Auto_Title0"
+                    Caption ="Biblioteca"
+                    FontName ="Segoe UI"
+                    GUID = Begin
+                        0xbb09e22c088ca04fb44968b4685f4654
+                    End
+                    GridlineColor =-2147483616
+                    HorizontalAnchor =2
+                    LayoutCachedLeft =1288
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =11221
+                    LayoutCachedHeight =1124
+                End
+            End
+        End
+        Begin Section
+            Height =7155
+            Name ="Corpo"
+            GUID = Begin
+                0x5df0d04d9f1d7440a3ed42b4da9776e4
+            End
+            Begin
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =2112
+                    Top =348
+                    Width =3828
+                    Height =564
+                    ColumnWidth =645
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="ID"
+                    ControlSource ="ID"
+                    GUID = Begin
+                        0x551f50781728b04382c85c6a19d0360b
+                    End
+                    GroupTable =15
+                    RightPadding =36
+                    BottomPadding =36
+
+                    LayoutCachedLeft =2112
+                    LayoutCachedTop =348
+                    LayoutCachedWidth =5940
+                    LayoutCachedHeight =912
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GroupTable =15
+                    Begin
+                        Begin Label
+                            BackStyle =1
+                            OldBorderStyle =1
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =180
+                            Top =348
+                            Width =1859
+                            Height =564
+                            LeftMargin =22
+                            TopMargin =22
+                            RightMargin =22
+                            BottomMargin =22
+                            BorderColor =12632256
+                            Name ="Etichetta1"
+                            Caption ="ID:"
+                            GUID = Begin
+                                0x32dab1752258034f8af2761878b084ab
+                            End
+                            GroupTable =15
+                            RightPadding =36
+                            BottomPadding =36
+                            LayoutCachedLeft =180
+                            LayoutCachedTop =348
+                            LayoutCachedWidth =2039
+                            LayoutCachedHeight =912
+                            LayoutGroup =1
+                            GroupTable =15
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =2112
+                    Top =984
+                    Width =3828
+                    Height =588
+                    ColumnWidth =1845
+                    TabIndex =1
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="Autore"
+                    ControlSource ="Autore"
+                    GUID = Begin
+                        0x8cc38f24fd15234e92b830b5c55c7ccf
+                    End
+                    GroupTable =15
+                    RightPadding =36
+                    BottomPadding =36
+
+                    LayoutCachedLeft =2112
+                    LayoutCachedTop =984
+                    LayoutCachedWidth =5940
+                    LayoutCachedHeight =1572
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GroupTable =15
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =180
+                            Top =984
+                            Width =1859
+                            Height =588
+                            LeftMargin =22
+                            TopMargin =22
+                            RightMargin =22
+                            BottomMargin =22
+                            Name ="Etichetta3"
+                            Caption ="Autore:"
+                            GUID = Begin
+                                0x8a73038a72d45b4aa415e08d72466483
+                            End
+                            GroupTable =15
+                            RightPadding =36
+                            BottomPadding =36
+                            LayoutCachedLeft =180
+                            LayoutCachedTop =984
+                            LayoutCachedWidth =2039
+                            LayoutCachedHeight =1572
+                            RowStart =1
+                            RowEnd =1
+                            LayoutGroup =1
+                            GroupTable =15
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =2112
+                    Top =1644
+                    Width =3828
+                    Height =588
+                    ColumnWidth =2880
+                    TabIndex =2
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="Titolo"
+                    ControlSource ="Titolo"
+                    GUID = Begin
+                        0x3b65a75acdc57c4cabcf9f276b0d97a6
+                    End
+                    GroupTable =15
+                    RightPadding =36
+                    BottomPadding =36
+
+                    LayoutCachedLeft =2112
+                    LayoutCachedTop =1644
+                    LayoutCachedWidth =5940
+                    LayoutCachedHeight =2232
+                    RowStart =2
+                    RowEnd =2
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GroupTable =15
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =180
+                            Top =1644
+                            Width =1859
+                            Height =588
+                            LeftMargin =22
+                            TopMargin =22
+                            RightMargin =22
+                            BottomMargin =22
+                            Name ="Etichetta5"
+                            Caption ="Titolo:"
+                            GUID = Begin
+                                0x9ed3b823c1e3df4eabe6c8abf5467ffa
+                            End
+                            GroupTable =15
+                            RightPadding =36
+                            BottomPadding =36
+                            LayoutCachedLeft =180
+                            LayoutCachedTop =1644
+                            LayoutCachedWidth =2039
+                            LayoutCachedHeight =2232
+                            RowStart =2
+                            RowEnd =2
+                            LayoutGroup =1
+                            GroupTable =15
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =2112
+                    Top =2304
+                    Width =3828
+                    Height =588
+                    ColumnWidth =645
+                    TabIndex =3
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="vol"
+                    ControlSource ="vol"
+                    GUID = Begin
+                        0xafab8d14ce320143ab0fb3fe7d9dabc0
+                    End
+                    GroupTable =15
+                    RightPadding =36
+                    BottomPadding =36
+
+                    LayoutCachedLeft =2112
+                    LayoutCachedTop =2304
+                    LayoutCachedWidth =5940
+                    LayoutCachedHeight =2892
+                    RowStart =3
+                    RowEnd =3
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GroupTable =15
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =180
+                            Top =2304
+                            Width =1859
+                            Height =588
+                            LeftMargin =22
+                            TopMargin =22
+                            RightMargin =22
+                            BottomMargin =22
+                            Name ="Etichetta7"
+                            Caption ="vol:"
+                            GUID = Begin
+                                0xd72d4f08a400034d990332b12b3c5a45
+                            End
+                            GroupTable =15
+                            RightPadding =36
+                            BottomPadding =36
+                            LayoutCachedLeft =180
+                            LayoutCachedTop =2304
+                            LayoutCachedWidth =2039
+                            LayoutCachedHeight =2892
+                            RowStart =3
+                            RowEnd =3
+                            LayoutGroup =1
+                            GroupTable =15
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =2112
+                    Top =2964
+                    Width =3828
+                    Height =360
+                    ColumnWidth =900
+                    TabIndex =4
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="opera"
+                    ControlSource ="opera"
+                    GUID = Begin
+                        0x67490e4920d09f46a5da61d8699712f0
+                    End
+                    GroupTable =15
+                    RightPadding =36
+                    BottomPadding =36
+
+                    LayoutCachedLeft =2112
+                    LayoutCachedTop =2964
+                    LayoutCachedWidth =5940
+                    LayoutCachedHeight =3324
+                    RowStart =4
+                    RowEnd =4
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GroupTable =15
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =180
+                            Top =2964
+                            Width =1859
+                            Height =360
+                            LeftMargin =22
+                            TopMargin =22
+                            RightMargin =22
+                            BottomMargin =22
+                            Name ="Etichetta9"
+                            Caption ="opera:"
+                            GUID = Begin
+                                0x2d71188ab529964b9684395663afe5d0
+                            End
+                            GroupTable =15
+                            RightPadding =36
+                            BottomPadding =36
+                            LayoutCachedLeft =180
+                            LayoutCachedTop =2964
+                            LayoutCachedWidth =2039
+                            LayoutCachedHeight =3324
+                            RowStart =4
+                            RowEnd =4
+                            LayoutGroup =1
+                            GroupTable =15
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =2112
+                    Top =3396
+                    Width =3828
+                    Height =792
+                    TabIndex =5
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="Edizione"
+                    ControlSource ="Edizione"
+                    GUID = Begin
+                        0xa1d759708b4235408581505227c166df
+                    End
+                    GroupTable =15
+                    RightPadding =36
+                    BottomPadding =36
+
+                    LayoutCachedLeft =2112
+                    LayoutCachedTop =3396
+                    LayoutCachedWidth =5940
+                    LayoutCachedHeight =4188
+                    RowStart =5
+                    RowEnd =5
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GroupTable =15
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =180
+                            Top =3396
+                            Width =1859
+                            Height =792
+                            LeftMargin =22
+                            TopMargin =22
+                            RightMargin =22
+                            BottomMargin =22
+                            Name ="Etichetta11"
+                            Caption ="Edizione:"
+                            GUID = Begin
+                                0xbce4eb98ce1fdb4c9f5393e33900202f
+                            End
+                            GroupTable =15
+                            RightPadding =36
+                            BottomPadding =36
+                            LayoutCachedLeft =180
+                            LayoutCachedTop =3396
+                            LayoutCachedWidth =2039
+                            LayoutCachedHeight =4188
+                            RowStart =5
+                            RowEnd =5
+                            LayoutGroup =1
+                            GroupTable =15
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =2112
+                    Top =4260
+                    Width =3828
+                    Height =588
+                    TabIndex =6
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="revisore"
+                    ControlSource ="revisore"
+                    GUID = Begin
+                        0x5a14411ea8d6be4fa5d23bb8b71cf3d9
+                    End
+                    GroupTable =15
+                    RightPadding =36
+                    BottomPadding =36
+
+                    LayoutCachedLeft =2112
+                    LayoutCachedTop =4260
+                    LayoutCachedWidth =5940
+                    LayoutCachedHeight =4848
+                    RowStart =6
+                    RowEnd =6
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GroupTable =15
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =180
+                            Top =4260
+                            Width =1859
+                            Height =588
+                            LeftMargin =22
+                            TopMargin =22
+                            RightMargin =22
+                            BottomMargin =22
+                            Name ="Etichetta13"
+                            Caption ="Immagini di:"
+                            GUID = Begin
+                                0xa9c76b1e03aa6b42852dbad736af0e97
+                            End
+                            GroupTable =15
+                            RightPadding =36
+                            BottomPadding =36
+                            LayoutCachedLeft =180
+                            LayoutCachedTop =4260
+                            LayoutCachedWidth =2039
+                            LayoutCachedHeight =4848
+                            RowStart =6
+                            RowEnd =6
+                            LayoutGroup =1
+                            GroupTable =15
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =7788
+                    Top =792
+                    Width =4080
+                    Height =588
+                    TabIndex =8
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="Stato dell'opera"
+                    ControlSource ="Stato dell'opera"
+                    EventProcPrefix ="Stato_dell_opera"
+                    GUID = Begin
+                        0xdce46d2d173ecf40b472eab5fe9c7bbb
+                    End
+                    GroupTable =16
+                    RightPadding =36
+                    BottomPadding =36
+
+                    LayoutCachedLeft =7788
+                    LayoutCachedTop =792
+                    LayoutCachedWidth =11868
+                    LayoutCachedHeight =1380
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =2
+                    GroupTable =16
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =6168
+                            Top =792
+                            Width =1548
+                            Height =588
+                            LeftMargin =22
+                            TopMargin =22
+                            RightMargin =22
+                            BottomMargin =22
+                            Name ="Etichetta19"
+                            Caption ="Stato dell'opera:"
+                            GUID = Begin
+                                0x73b116aa8782404094e71a5b45b10941
+                            End
+                            GroupTable =16
+                            BottomPadding =36
+                            LayoutCachedLeft =6168
+                            LayoutCachedTop =792
+                            LayoutCachedWidth =7716
+                            LayoutCachedHeight =1380
+                            RowStart =1
+                            RowEnd =1
+                            LayoutGroup =2
+                            GroupTable =16
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =7788
+                    Top =1452
+                    Width =4080
+                    Height =588
+                    TabIndex =9
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="Catalogazione"
+                    ControlSource ="Catalogazione"
+                    GUID = Begin
+                        0xcdc4c0896c05a74c9d864a7edda03092
+                    End
+                    GroupTable =16
+                    RightPadding =36
+                    BottomPadding =36
+
+                    LayoutCachedLeft =7788
+                    LayoutCachedTop =1452
+                    LayoutCachedWidth =11868
+                    LayoutCachedHeight =2040
+                    RowStart =2
+                    RowEnd =2
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =2
+                    GroupTable =16
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =6168
+                            Top =1452
+                            Width =1548
+                            Height =588
+                            FontSize =12
+                            LeftMargin =22
+                            TopMargin =22
+                            RightMargin =22
+                            BottomMargin =22
+                            Name ="Etichetta21"
+                            Caption ="Catalogazione:"
+                            GUID = Begin
+                                0xabd214a696451c4dbcc97b9bca5f1797
+                            End
+                            GroupTable =16
+                            BottomPadding =36
+                            LayoutCachedLeft =6168
+                            LayoutCachedTop =1452
+                            LayoutCachedWidth =7716
+                            LayoutCachedHeight =2040
+                            RowStart =2
+                            RowEnd =2
+                            LayoutGroup =2
+                            GroupTable =16
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =7788
+                    Top =2112
+                    Width =4080
+                    Height =360
+                    ColumnWidth =735
+                    TabIndex =10
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="Archivio"
+                    ControlSource ="Archivio"
+                    GUID = Begin
+                        0x4ee703ab1005b34abc28ebfc2de68598
+                    End
+                    GroupTable =16
+                    RightPadding =36
+                    BottomPadding =36
+
+                    LayoutCachedLeft =7788
+                    LayoutCachedTop =2112
+                    LayoutCachedWidth =11868
+                    LayoutCachedHeight =2472
+                    RowStart =3
+                    RowEnd =3
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =2
+                    GroupTable =16
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =6168
+                            Top =2112
+                            Width =1548
+                            Height =360
+                            LeftMargin =22
+                            TopMargin =22
+                            RightMargin =22
+                            BottomMargin =22
+                            Name ="Etichetta23"
+                            Caption ="Archivio:"
+                            GUID = Begin
+                                0x337bc174c3ad9d40a0de3d82bdb41b18
+                            End
+                            GroupTable =16
+                            BottomPadding =36
+                            LayoutCachedLeft =6168
+                            LayoutCachedTop =2112
+                            LayoutCachedWidth =7716
+                            LayoutCachedHeight =2472
+                            RowStart =3
+                            RowEnd =3
+                            LayoutGroup =2
+                            GroupTable =16
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =7788
+                    Top =2544
+                    Width =4080
+                    Height =588
+                    ColumnWidth =1335
+                    TabIndex =11
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="anno"
+                    ControlSource ="anno"
+                    GUID = Begin
+                        0x0ef3964e64ca8941b4a027471a7a3706
+                    End
+                    GroupTable =16
+                    RightPadding =36
+                    BottomPadding =36
+
+                    LayoutCachedLeft =7788
+                    LayoutCachedTop =2544
+                    LayoutCachedWidth =11868
+                    LayoutCachedHeight =3132
+                    RowStart =4
+                    RowEnd =4
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =2
+                    GroupTable =16
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =6168
+                            Top =2544
+                            Width =1548
+                            Height =588
+                            LeftMargin =22
+                            TopMargin =22
+                            RightMargin =22
+                            BottomMargin =22
+                            Name ="Etichetta25"
+                            Caption ="anno:"
+                            GUID = Begin
+                                0xcdc0a2177714d846af3ce06c27144222
+                            End
+                            GroupTable =16
+                            BottomPadding =36
+                            LayoutCachedLeft =6168
+                            LayoutCachedTop =2544
+                            LayoutCachedWidth =7716
+                            LayoutCachedHeight =3132
+                            RowStart =4
+                            RowEnd =4
+                            LayoutGroup =2
+                            GroupTable =16
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =7788
+                    Top =3204
+                    Width =4080
+                    Height =588
+                    TabIndex =12
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="note"
+                    ControlSource ="note"
+                    GUID = Begin
+                        0x477c3f70862f674fa60141113348e2a6
+                    End
+                    GroupTable =16
+                    RightPadding =36
+                    BottomPadding =36
+
+                    LayoutCachedLeft =7788
+                    LayoutCachedTop =3204
+                    LayoutCachedWidth =11868
+                    LayoutCachedHeight =3792
+                    RowStart =5
+                    RowEnd =5
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =2
+                    GroupTable =16
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =6168
+                            Top =3204
+                            Width =1548
+                            Height =588
+                            FontSize =18
+                            LeftMargin =22
+                            TopMargin =22
+                            RightMargin =22
+                            BottomMargin =22
+                            Name ="Etichetta27"
+                            Caption ="note:"
+                            GUID = Begin
+                                0x28099cd899f09c4693b4730a50a4ea4a
+                            End
+                            GroupTable =16
+                            BottomPadding =36
+                            LayoutCachedLeft =6168
+                            LayoutCachedTop =3204
+                            LayoutCachedWidth =7716
+                            LayoutCachedHeight =3792
+                            RowStart =5
+                            RowEnd =5
+                            LayoutGroup =2
+                            GroupTable =16
+                        End
+                    End
+                End
+                Begin ComboBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =7788
+                    Top =360
+                    Width =4080
+                    Height =359
+                    TabIndex =7
+                    ColumnInfo ="\"\";\"\";\"10\";\"510\""
+                    GUID = Begin
+                        0x471c55a4913a8540a418db075d1c196e
+                    End
+                    Name ="Settore"
+                    ControlSource ="Settore"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT [biblioteca].Settore FROM [biblioteca] GROUP BY [biblioteca].Settore; "
+                    GroupTable =16
+                    RightPadding =36
+                    BottomPadding =36
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+
+                    LayoutCachedLeft =7788
+                    LayoutCachedTop =360
+                    LayoutCachedWidth =11868
+                    LayoutCachedHeight =719
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =2
+                    GroupTable =16
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =6168
+                            Top =360
+                            Width =1548
+                            Height =359
+                            LeftMargin =22
+                            TopMargin =22
+                            RightMargin =22
+                            BottomMargin =22
+                            Name ="Etichetta15"
+                            Caption ="Settore:"
+                            GUID = Begin
+                                0x2aaeff6e9d169c49a80b8584f62fee91
+                            End
+                            GroupTable =16
+                            BottomPadding =36
+                            LayoutCachedLeft =6168
+                            LayoutCachedTop =360
+                            LayoutCachedWidth =7716
+                            LayoutCachedHeight =719
+                            LayoutGroup =2
+                            GroupTable =16
+                        End
+                    End
+                End
+            End
+        End
+        Begin FormFooter
+            Height =0
+            Name ="PièDiPaginaMaschera"
+            GUID = Begin
+                0x842057d604f85d489d34939200ef26b4
+            End
+            AutoHeight =1
+        End
+    End
+End
