@@ -4,7 +4,7 @@
 
 *Catalogo di una biblioteca musicale*
 
-**Microsoft Access** · 2018 · version 1.0  
+**db** · 2018 · version 1.0  
 Author: **Massimo Sbarbaro** ([ORCID 0009-0006-8965-9013](https://orcid.org/0009-0006-8965-9013))
 
 ## Overview
@@ -46,7 +46,7 @@ The database is published **empty**: every table has been emptied and the file c
 
 Use the citation metadata in [`CITATION.cff`](CITATION.cff) (GitHub: *Cite this repository*). The release is archived on Zenodo with the DOI [10.5281/zenodo.23186665](https://doi.org/10.5281/zenodo.23186665).
 
-> Sbarbaro, Massimo. 2018. *Catalogue of a music library*. Software (Microsoft Access, 2018), version 1.0. Zenodo. https://doi.org/10.5281/zenodo.23186665.
+> Sbarbaro, Massimo. 2018. *Catalogue of a music library*. Software (db, 2018), version 1.0. Zenodo. https://doi.org/10.5281/zenodo.23186665.
 
 ## License
 
