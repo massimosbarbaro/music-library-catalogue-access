@@ -1,5 +1,7 @@
 # Catalogue of a music library
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23186665.svg)](https://doi.org/10.5281/zenodo.23186665)
+
 *Catalogo di una biblioteca musicale*
 
 **Microsoft Access** · 2018 · version 1.0  
@@ -42,9 +44,9 @@ The database is published **empty**: every table has been emptied and the file c
 
 ## How to cite
 
-Use the citation metadata in [`CITATION.cff`](CITATION.cff) (GitHub: *Cite this repository*). Each release is archived on Zenodo with its own DOI.
+Use the citation metadata in [`CITATION.cff`](CITATION.cff) (GitHub: *Cite this repository*). The release is archived on Zenodo with the DOI [10.5281/zenodo.23186665](https://doi.org/10.5281/zenodo.23186665).
 
-> Sbarbaro, Massimo. *Catalogue of a music library (Microsoft Access, 2018)*. Software, version 1.0. GitHub: https://github.com/massimosbarbaro/music-library-catalogue-access
+> Sbarbaro, Massimo. 2018. *Catalogue of a music library*. Software (Microsoft Access, 2018), version 1.0. Zenodo. https://doi.org/10.5281/zenodo.23186665.
 
 ## License
 
